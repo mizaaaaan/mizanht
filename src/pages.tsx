@@ -3,7 +3,7 @@ import type { FormEvent, ReactNode } from 'react'
 
 const CONTACT_EMAIL = 'md.mizan235@gmail.com'
 
-const SOCIAL_LINKS = ['Instagram', 'TikTok', 'YouTube']
+import { SOCIAL_LINKS } from './App'
 
 const JOBS = [
   {

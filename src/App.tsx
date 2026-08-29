@@ -11,7 +11,7 @@ const NAV_LINKS = [
   { label: 'Jobs', href: '#/jobs' },
   { label: 'Message', href: '#/message' },
 ]
-const SOCIAL_LINKS = ['Instagram', 'TikTok', 'YouTube']
+export const SOCIAL_LINKS = ['Instagram', 'TikTok', 'YouTube']
 
 // Drop the entrance animation after it completes so `animation-fill-mode: both`
 // stops pinning opacity/transform and hover effects work again.
