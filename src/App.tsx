@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { JobsPage, MessagePage, StoryPage } from './pages'
+import { SOCIAL_LINKS } from './constants'
 
 const BG_URL =
   'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85'
@@ -11,7 +12,6 @@ const NAV_LINKS = [
   { label: 'Jobs', href: '#/jobs' },
   { label: 'Message', href: '#/message' },
 ]
-export const SOCIAL_LINKS = ['Instagram', 'TikTok', 'YouTube']
 
 // Drop the entrance animation after it completes so `animation-fill-mode: both`
 // stops pinning opacity/transform and hover effects work again.

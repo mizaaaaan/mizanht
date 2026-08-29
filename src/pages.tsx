@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import type { FormEvent, ReactNode } from 'react'
 
-const CONTACT_EMAIL = 'md.mizan235@gmail.com'
-
-import { SOCIAL_LINKS } from './App'
+import { CONTACT_EMAIL, SOCIAL_LINKS } from './constants'
 
 const JOBS = [
   {
@@ -238,7 +236,7 @@ export function StoryPage() {
           items={[
             'Location: Doha, Qatar',
             'Phone: +974 7194 5693',
-            'Email: mizan321@hotmail.com',
+            `Email: ${CONTACT_EMAIL}`,
           ]}
         />
       </Section>
